@@ -1,0 +1,180 @@
+.logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.Intro {
+  display: flex;
+  font-size: 100px;
+  font-weight: 850;
+  color: #1e2a32;
+  margin-top: -30px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: -50px;
+  justify-content: center;
+  text-align: center;
+}
+
+
+.AH {
+  display: flex;
+  font-size: 100px;
+  font-weight: 850;
+  color: #1e2a32;
+  margin-top: -10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: -40px;
+  justify-content: center;
+  text-align: center;
+}
+
+
+.Transforming {
+  line-height: 1.5;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 500;
+  max-width: 900px; 
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 80px;
+  
+
+}
+
+
+.headingHw {
+  display: flex;
+  font-size: 60px;
+  font-weight: 850;
+  color: #1e2a32;
+  margin-top: -10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: -40px;
+  justify-content: center;
+  text-align: center;
+}
+
+
+.headingHw2 {
+  line-height: 1.5;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 500;
+  max-width: 1000px; 
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 80px;
+
+}
+
+.imageContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.imageWrapper {
+  margin-right: 10px; 
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.5); 
+  padding: 1px; 
+  margin-bottom: 50px;
+}
+
+.AU {
+  display: flex;
+  font-size: 60px;
+  font-weight: 850;
+  color: #1e2a32;
+  margin-top: -10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: -40px;
+  justify-content: center;
+  text-align: center;
+}
+
+
+.AU2 {
+  line-height: 1.5;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 500;
+  max-width: 1000px; 
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 80px;
+
+}
+
+
+  .OM {
+    display: flex;
+    font-size: 60px;
+    font-weight: 850;
+    color: #1e2a32;
+    margin-top: -10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -40px;
+    justify-content: center;
+    text-align: center;
+  }
+
+
+  .OM2 {
+    line-height: 1.5;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    max-width: 1000px; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 80px;
+  
+  
+  }
+
+  .scrollButton1 {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    left: 1263px;
+    padding: 10px 20px;
+    background-color: #1e2a32;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  .scrollButton2 {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #1e2a32;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .scrollButton:focus {
+    outline: none;
+  }
+
+
+
