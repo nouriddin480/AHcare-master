@@ -138,16 +138,23 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: 50px;
-    margin-bottom: 80px;
+    margin-bottom: 60px;
   
   
   }
+  .buttonContainer {
+    display: flex;
+    
+
+
+  }
+
+
 
   .scrollButton1 {
     position: fixed;
     top: 20px;
-    right: 20px;
-    left: 1263px;
+    right: 225px;
     padding: 10px 20px;
     background-color: #1e2a32;
     color: #ffffff;
@@ -161,7 +168,7 @@
   .scrollButton2 {
     position: fixed;
     top: 20px;
-    right: 20px;
+    right: 95px;
     padding: 10px 20px;
     background-color: #1e2a32;
     color: #ffffff;
@@ -172,9 +179,105 @@
     transition: background-color 0.3s;
   }
   
-  .scrollButton:focus {
-    outline: none;
+  .scrollButton3 {
+    position: fixed;
+    top: 20px;
+    right: 10px;
+    padding: 10px 20px;
+    background-color: #1e2a32;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+
+  .RH {
+    display: flex;
+    font-size: 60px;
+    font-weight: 850;
+    color: #1e2a32;
+    margin-top: -10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -40px;
+    justify-content: center;
+    text-align: center;
+  
   }
 
+  .blog {
+    display: flex;
+    font-size: 60px;
+    font-weight: 850;
+    color: #1e2a32;
+    margin-top: -10px;
+    margin-bottom: -40px;
+    justify-content: left;
+    margin-left: 60px;
+  }
 
+  .blogh {
+    line-height: 1.5;
+    font-size: 25px;
+    font-weight: 500;
+    max-width: 1000px; 
+    margin-left: 60px;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: -30px;
+  }
 
+  .imageContainer2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+  }
+  
+  .imageRow2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px; 
+  }
+  
+  .imageColumn2 {
+    flex: 1 0 33.33%;
+    max-width: 33.33%;
+    padding: 40px;
+  }
+  
+  .imageWrapper2 {
+    text-align: center;
+    margin-right: 10px; 
+    box-shadow: 0 0 4px gray; 
+    padding: 7px; 
+    margin-bottom: 50px;
+    justify-content: center;
+  }
+  
+  .S {
+    line-height: 1.4;
+    text-align: left;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 14px;
+  
+  }
+
+  .S1 {
+    min-height: 130px;
+    max-height: 100px;
+    line-height: 1.4;
+    text-align: left;
+    font-size: 20px;
+    max-width: 400px;
+    font-weight: 200px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+  
+  }

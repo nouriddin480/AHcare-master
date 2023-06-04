@@ -18,7 +18,7 @@ export default function Layout({ children, home }) {
             <Link href="/">
               <a>
                 <h2 className={`${utilStyles.headingLg} ${styles.ahCare}`}>
-                  {name}
+                  
                 </h2>
               </a>
             </Link>
