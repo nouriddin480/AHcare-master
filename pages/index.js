@@ -48,6 +48,7 @@ export default function Home({ allPostsData }) {
         width={100}
         height={100}
       />
+      <img src="/images/blue.png" alt="Blue Abstract Line Art" className={`${utilStyles.blue}`} />
       <h2 className={utilStyles.Intro}>Introducing</h2>
       <h2 className={utilStyles.AH}>AH Care</h2>
 
@@ -105,17 +106,31 @@ export default function Home({ allPostsData }) {
           <br></br>
         </p>
 
+
         <h2 id="mission" className={utilStyles.OM}>
           Our Mission
         </h2>
         <p className={utilStyles.OM2}>
-        "Our mission is to revolutionize chronic condition management through digital healthcare. By leveraging technology, we aim to transform lives and empower individuals with seamless, personalized care. Our goal is to simplify healthcare management, improve accessibility, and enhance the overall well-being of those living with chronic conditions." ​
+        Our mission is to revolutionize chronic condition management through digital healthcare. By leveraging technology, we aim to transform lives and empower individuals with seamless, personalized care. Our goal is to simplify healthcare management, improve accessibility, and enhance the overall well-being of those living with chronic conditions. ​
         </p>
 
+                <img src="/images/blue.png" alt="Blue Abstract Line Art" className={`${utilStyles.blue2}`} />
+
+
+        <div className={utilStyles.imageContainer}>
         <div className={utilStyles.imageContainer}>
   <div className={utilStyles.imageWrapper}>
-    <Image src="/images/3.jpg" alt="Mission Image" width={400} height={300} />
   </div>
+  <div className={utilStyles.imageWrapper}>
+    <Image src="/images/4.jpg" alt="Mission Image" width={400} height={300} />
+  </div>
+  <div className={utilStyles.imageWrapper}>
+    <Image src="/images/5.jpg" alt="Mission Image" width={400} height={300} />
+  </div>
+  <div className={utilStyles.imageWrapper}>
+  </div>
+</div>
+
 </div>
 
 
@@ -136,7 +151,7 @@ export default function Home({ allPostsData }) {
         </div>
 
         <h2 id="blogs" className={utilStyles.blog}>
-          Blogs
+          Today's blogs
         </h2>
 
         <p className={utilStyles.blogh}>
@@ -156,14 +171,14 @@ export default function Home({ allPostsData }) {
       <div className={utilStyles.imageWrapper2}>
         <Image src="/images/B.jpg" alt="Picture B" width={400} height={400} />
         <p className={utilStyles.S}>Navigating E-Medicine: A Guide to Online Prescription Services</p>
-        <p className={utilStyles.S1}>Educate your audience about reliable online prescription services, emphasizing their convenience, safety measures, and how they can save time and improve access to necessary medications.</p>
+        <p className={utilStyles.S2}>Educate your audience about reliable online prescription services, emphasizing their convenience, safety measures, and how they can save time and improve access to necessary medications.</p>
       </div>
     </div>
     <div className={utilStyles.imageColumn2}>
       <div className={utilStyles.imageWrapper2}>
         <Image src="/images/C.jpg" alt="Picture C" width={400} height={400} />
         <p className={utilStyles.S}>The Future of E-Medicine: Artificial Intelligence and Healthcare</p>
-        <p className={utilStyles.S1}>Discuss the role of artificial intelligence (AI) in e-medicine, including AI-powered diagnostics, chatbots for medical assistance, and predictive analytics for early disease detection.</p>
+        <p className={utilStyles.S3}>Discuss the role of artificial intelligence (AI) in e-medicine, including AI-powered diagnostics, chatbots for medical assistance, and predictive analytics for early disease detection.</p>
       </div>
     </div>
   </div>
@@ -172,21 +187,21 @@ export default function Home({ allPostsData }) {
       <div className={utilStyles.imageWrapper2}>
         <Image src="/images/D.jpg" alt="Picture D" width={400} height={400} />
         <p className={utilStyles.S}>E-Medicine Success Stories: Real-Life Patient Experiences</p>
-        <p className={utilStyles.S1}>Share inspiring stories of patients who have benefited from e-medicine, showcasing how it has improved their access to healthcare, enhanced treatment outcomes, and empowered them to take control of their health.</p>
+        <p className={utilStyles.S4}>Share inspiring stories of patients who have benefited from e-medicine, showcasing how it has improved their access to healthcare, enhanced treatment outcomes, and empowered them to take control of their health.</p>
       </div>
     </div>
     <div className={utilStyles.imageColumn2}>
       <div className={utilStyles.imageWrapper2}>
         <Image src="/images/E.jpg" alt="Picture E" width={400} height={400} />
         <p className={utilStyles.S}>The Legal and Ethical Considerations of E-Medicine</p>
-        <p className={utilStyles.S1}>Explore the legal and ethical aspects of e-medicine, including patient privacy, data security, telemedicine regulations, and the importance of maintaining ethical standards in remote healthcare delivery.</p>
+        <p className={utilStyles.S5}>Explore the legal and ethical aspects of e-medicine, including patient privacy, data security, telemedicine regulations, and the importance of maintaining ethical standards in remote healthcare delivery.</p>
       </div>
     </div>
     <div className={utilStyles.imageColumn2}>
       <div className={utilStyles.imageWrapper2}>
         <Image src="/images/F.jpg" alt="Picture F" width={400} height={400} />
         <p className={utilStyles.S}>Top E-Medicine Apps and Platforms for Easy Healthcare Access</p>
-        <p className={utilStyles.S1}>Highlight popular e-medicine apps and platforms that provide convenient access to healthcare services, including virtual doctor visits, medication reminders, and health tracking.</p>
+        <p className={utilStyles.S6}>Highlight popular e-medicine apps and platforms that provide convenient access to healthcare services, including virtual doctor visits, medication reminders, and health tracking.</p>
       </div>
     </div>
   </div>

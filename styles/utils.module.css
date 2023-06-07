@@ -1,3 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700');
+
+.blue {
+    margin-top: -200px;
+    margin-left: -460px;
+    width: 450px;
+    transform: rotate(655deg);
+    transform-origin: top right;
+    z-index: 9999;
+  }
+
+  .blue2 {
+    margin-top: 200px;
+    margin-left: 1300px;
+    width: 450px;
+    transform: rotate(420deg);
+    transform-origin: top right;
+    z-index: 9999;
+  }
+
+  
+
 .logo{
   display: block;
   margin-left: auto;
@@ -10,7 +32,7 @@
   font-size: 100px;
   font-weight: 850;
   color: #1e2a32;
-  margin-top: -30px;
+  margin-top: -90px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: -50px;
@@ -34,6 +56,7 @@
 
 
 .Transforming {
+  
   line-height: 1.5;
   text-align: center;
   font-size: 30px;
@@ -42,7 +65,7 @@
   margin-left: auto;
   margin-right: auto;
   margin-top: 50px;
-  margin-bottom: 80px;
+  margin-bottom: 50px;
   
 
 }
@@ -110,7 +133,7 @@
   margin-left: auto;
   margin-right: auto;
   margin-top: 50px;
-  margin-bottom: 80px;
+  margin-bottom: 50px;
 
 }
 
@@ -138,12 +161,13 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: 50px;
-    margin-bottom: 60px;
+    margin-bottom: -400px;
   
   
   }
   .buttonContainer {
     display: flex;
+    margin-bottom: 30px;
     
 
 
@@ -202,7 +226,7 @@
     margin-top: -10px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: -40px;
+    margin-bottom: -70px;
     justify-content: center;
     text-align: center;
   
@@ -230,12 +254,7 @@
     margin-bottom: -30px;
   }
 
-  .imageContainer2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  
-  }
+
   
   .imageRow2 {
     display: flex;
@@ -245,36 +264,97 @@
   }
   
   .imageColumn2 {
-    flex: 1 0 33.33%;
-    max-width: 33.33%;
-    padding: 40px;
+    flex: 1;
+    max-width: 60%;
+    padding: 30px;
   }
   
   .imageWrapper2 {
     text-align: center;
-    margin-right: 10px; 
+    margin-right: 30px; 
     box-shadow: 0 0 4px gray; 
-    padding: 7px; 
-    margin-bottom: 50px;
+    padding: 2px; 
+    margin-bottom: -20px;
     justify-content: center;
   }
   
   .S {
-    line-height: 1.4;
+    line-height: 1.1;
     text-align: left;
     font-size: 22px;
     font-weight: bold;
+    text-decoration: underline;
     margin-top: 10px;
-    margin-bottom: 14px;
+    margin-bottom: 10px;
   
   }
 
   .S1 {
-    min-height: 130px;
+    min-height: 120px;
     max-height: 100px;
     line-height: 1.4;
     text-align: left;
-    font-size: 20px;
+    font-size: 18px;
+    max-width: 400px;
+    font-weight: 200px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+  
+  }
+  .S2 {
+    min-height: 120px;
+    max-height: 100px;
+    line-height: 1.4;
+    text-align: left;
+    font-size: 18px;
+    max-width: 400px;
+    font-weight: 200px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+  
+  }
+  .S3 {
+    min-height: 120px;
+    max-height: 100px;
+    line-height: 1.4;
+    text-align: left;
+    font-size: 18px;
+    max-width: 400px;
+    font-weight: 200px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+  
+  }
+  .S4 {
+    min-height: 120px;
+    max-height: 100px;
+    line-height: 1.4;
+    text-align: left;
+    font-size: 18px;
+    max-width: 400px;
+    font-weight: 200px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+  
+  }
+  .S5 {
+    min-height: 120px;
+    max-height: 100px;
+    line-height: 1.4;
+    text-align: left;
+    font-size: 18px;
+    max-width: 400px;
+    font-weight: 200px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+  
+  }
+  .S6 {
+    min-height: 120px;
+    max-height: 100px;
+    line-height: 1.4;
+    text-align: left;
+    font-size: 18px;
     max-width: 400px;
     font-weight: 200px;
     margin-top: 10px;
