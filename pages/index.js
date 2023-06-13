@@ -211,7 +211,7 @@ export default function Home({ allPostsData }) {
 
 
 <Link legacyBehavior href="/index2" passHref>
-  <a className={utilStyles.button}>Go to Page 2</a>
+  <a className={`${utilStyles.Page2Btn}`}> → </a>
 </Link>
 
 

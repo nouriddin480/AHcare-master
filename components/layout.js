@@ -16,11 +16,11 @@ export default function Layout({ children, home }) {
         ) : (
           <>
             <Link href="/">
-              <a>
-                <h2 className={`${utilStyles.headingLg} ${styles.ahCare}`}>
-                  
-                </h2>
-              </a>
+
+              <h2 className={`${utilStyles.headingLg} ${styles.ahCare}`}>
+                
+              </h2>
+
             </Link>
           </>
         )}
