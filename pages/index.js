@@ -4,6 +4,8 @@ import Layout, { siteTitle } from '../components/layout';
 import utilStyles from '../styles/utils.module.css';
 import { getSortedPostsData } from '../lib/posts';
 import React, { useState, useEffect } from 'react';
+import Link from 'next/link';
+
 
 export async function getStaticProps() {
   const allPostsData = getSortedPostsData();
@@ -206,6 +208,12 @@ export default function Home({ allPostsData }) {
     </div>
   </div>
 </div>
+
+
+<Link legacyBehavior href="/index2" passHref>
+  <a className={utilStyles.button}>Go to Page 2</a>
+</Link>
+
 
 
 
