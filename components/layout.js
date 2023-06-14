@@ -15,7 +15,7 @@ export default function Layout({ children, home }) {
           </div>
         ) : (
           <>
-            <Link href="/">
+            <Link href="/" legacyBehavior>
 
               <h2 className={`${utilStyles.headingLg} ${styles.ahCare}`}>
                 

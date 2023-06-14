@@ -5,44 +5,17 @@ import utilStyles from '../styles/utils.module.css';
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 
+
 const Index2 = () => {
-  const [showScrollButton, setShowScrollButton] = useState(true);
-
-  const scrollToSection = (sectionId) => {
-    const section = document.getElementById(sectionId);
-    section.scrollIntoView({ behavior: 'smooth' });
-    setShowScrollButton(false);
-  };
-
-  useEffect(() => {
-    const handleScroll = () => {
-      const scrollY = window.scrollY;
-      setShowScrollButton(scrollY === 0);
-    };
-
-    window.addEventListener('scroll', handleScroll);
-
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
-  }, []);
-
   return (
     <Layout> 
-
-<header className={utilStyles.header2}>
-        <nav>
-          <Link href="/" className={utilStyles.logo}>
-            <img src="/images/paleblue.jpg" alt="Logo" width={5000} height={100} />
-          </Link>
-        </nav>
-      </header>
-
       <div className={utilStyles.pageContainer}>
-      <img src="/images/blue.png" alt="Blue Abstract Line Art" className={`${utilStyles.blue}`} />
-        <h2 className={utilStyles.TB}>Today's Blogs </h2>
+        <h2 className={utilStyles.MT}>Today's Blogs </h2>
       </div>
 
+        <p className={utilStyles.blogh}>
+          Transforming Healthcare Delivery: Embrace the Power of E-Medicine
+        </p>
         
         <div className={utilStyles.imageContainer2}>
   <div className={utilStyles.imageRow2}>
@@ -93,26 +66,8 @@ const Index2 = () => {
   </div>
 </div>
 
-<div className={utilStyles.buttonsContainer}>
-        {showScrollButton && (
-          <>
-            <Link href="/">
-              <button className={`${utilStyles.scrollButton1}`}>Home</button>
-            </Link>
-            <Link href="/index2">
-              <button className={`${utilStyles.scrollButton2}`}>Our Team</button>
-            </Link>
-            <Link href="/index3">
-              <button className={`${utilStyles.scrollButton3}`}>Blogs</button>
-            </Link>
-            <Link href="/index3">
-              <button className={`${utilStyles.scrollButton4}`}>Services</button>
-            </Link>
-          </>
-        )}
-      </div>
-
-</Layout>
+      
+    </Layout>
   );
 };
 
