@@ -43,6 +43,17 @@ export default function Home({ allPostsData }) {
       <Head>
         <title>{siteTitle}</title>
       </Head>
+
+      <header className={utilStyles.header}>
+        <nav>
+          <Link href="/">
+            <a className={utilStyles.logo}>
+              <img src="/images/logo.png" alt="Logo" width={100} height={100} />
+            </a>
+          </Link>
+        </nav>
+      </header>
+      
       <Image
         priority
         src="/images/logo.png"
