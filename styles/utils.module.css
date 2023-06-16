@@ -565,7 +565,7 @@
 
 .sContainer {
   display: flex;
-  justify-content: center; /* Center the boxes horizontally */
+  justify-content: center; 
   margin-top: 4rem;
 }
 
@@ -573,7 +573,7 @@
   flex: 0 0 auto;
   width: 400px;
   height: 400px;
-  margin: 1.5rem; /* Add some horizontal margin between the boxes */
+  margin: 1.5rem; 
   padding: 1.2rem;
   background-color: white;
   border-radius: 5px;
