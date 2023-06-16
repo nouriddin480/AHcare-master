@@ -47,9 +47,6 @@ export default function Home({ allPostsData }) {
       <header className={utilStyles.header}>
         <nav>
           <Link href="/" className={utilStyles.logo}>
-
-            <img src="/images/paleblue.jpg" alt="Logo" width={5000} height={100} />
-
           </Link>
         </nav>
       </header>
@@ -154,7 +151,7 @@ export default function Home({ allPostsData }) {
         </button>
       </Link>
 
-      <Link href="/index3">
+      <Link href="/index2">
         <button className={`${utilStyles.scrollButton4}`}>
           Services
         </button>
@@ -164,6 +161,16 @@ export default function Home({ allPostsData }) {
   )}
 </div>
       </section>
+      <footer className={utilStyles.footer}>
+        <div className={utilStyles.footerContent}>
+          <p>&copy; {new Date().getFullYear()} AH Care. All rights reserved. Designed and developed by AH Care Team</p>
+          <img className={utilStyles.visa} src="/images/visa.png" alt="visa" width={120} height={40} />   
+          <img className={utilStyles.verified} src="/images/verified.png" alt="verified" width={80} height={60} />
+          <img className={utilStyles.fLogo} src="/images/logo.png" alt="logo" width={60} height={60} />
+
+
+        </div>
+      </footer>
     </Layout>
   );
 }
