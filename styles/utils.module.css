@@ -8,38 +8,66 @@
   margin-top: -32px;
 }
 
+.black {
+  margin-top: 10px;
+}
+
+.AHH {
+  margin-top: -44px;
+  margin-left: 60px;
+  color: white;
+}
+
+.logoH {
+  margin-top: -52px;
+  margin-left: 15px;
+}
 .footer {
-  background-image: url("/images/paleblue.jpg");
+  background-image: url("/images/black.png");
   background-size: cover;
   background-position: center;
   position: relative;
-  border-top-right-radius:30% 90%;
+  border-top-right-radius:50% 100%;
   border-top-left-radius:-20%;
+  margin-right: -20px;
 
 }
 
+.footerContent {
+  color: white;
+  margin-top: 60px;
+}
 .visa{
-  margin-top: -7px;
+  margin-top: -35px;
+  margin-bottom: 15px;
+
 }
 
 .verified {
-  margin-left: 140px;
-  margin-top: -52px;
-}
-
-.fLogo {
-  margin-left: 237px;
-  margin-top: -60px;
+  margin-left: 130px;
+  margin-top: -100px;
+  margin-bottom: -40px;
+  
 }
 
 .blue {
-    margin-top: -300px;
-    margin-left: -460px;
+    margin-top: -103px;
+    margin-left: -700px;
     width: 450px;
-    transform: rotate(655deg);
+    transform: rotate(255deg);
     transform-origin: top right;
     z-index: 9999;
   }
+
+   .blue1 {
+    margin-top: 38px;
+    margin-left: -700px;
+    width: 450px;
+    transform: rotate(255deg);
+    transform-origin: top right;
+    z-index: 9999;
+  }
+
 
   .blue2 {
     margin-top: 200px;
@@ -56,7 +84,8 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 
 }
 
@@ -65,7 +94,7 @@
   font-size: 100px;
   font-weight: 850;
   color: #1e2a32;
-  margin-top: -3px;
+  margin-top: -200px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: -60px;
@@ -217,7 +246,7 @@
     top: 20px;
     right: 325px;
     padding: 10px 20px;
-    background-color: #1e2a32;
+    background-color: black;
     color: #ffffff;
     border: none;
     border-radius: 4px;
@@ -231,7 +260,7 @@
     top: 20px;
     right: 210px;
     padding: 10px 20px;
-    background-color: #1e2a32;
+    background-color: black;
     color: #ffffff;
     border: none;
     border-radius: 4px;
@@ -245,7 +274,7 @@
     top: 20px;
     right: 125px;
     padding: 10px 20px;
-    background-color: #1e2a32;
+    background-color: black;
     color: #ffffff;
     border: none;
     border-radius: 4px;
@@ -259,7 +288,7 @@
     top: 20px;
     right: 20px;
     padding: 10px 20px;
-    background-color: #1e2a32;
+    background-color: black;
     color: #ffffff;
     border: none;
     border-radius: 4px;
@@ -424,7 +453,7 @@
       font-size: 80px;
       font-weight: 850;
       color: #1e2a32;
-      margin-top: 90px;
+      margin-top: -210px;
       margin-left: auto;
       margin-right: auto;
       margin-bottom: -40px;
@@ -527,7 +556,7 @@
     font-size: 80px;
     font-weight: 850;
     color: #1e2a32;
-    margin-top: 90px;
+    margin-top: -210px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: -85px;
@@ -547,10 +576,10 @@
   font-size: 80px;
   font-weight: 850;
   color: #1e2a32;
-  margin-top: 90px;
+  margin-top: -210px;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 60px;
+  margin-bottom: -40px;
   justify-content: center;
   align-items: center;
   text-align: center;

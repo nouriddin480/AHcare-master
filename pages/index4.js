@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react';
 import Layout from '../components/Layout';
 import utilStyles from '../styles/utils.module.css';
 import Link from 'next/link';
+import Image from 'next/image';
+
 
 
 const Index2 = () => {
@@ -28,14 +30,25 @@ const Index2 = () => {
 
   return (
     <Layout>
-      <header className={utilStyles.header2}>
+   <header className={utilStyles.header2}>
         <nav>
-          <Link href="/" className={utilStyles.logo}></Link>
+          <Link href="/" className={utilStyles.logo}>
+          </Link>
+          <img className={utilStyles.black} src="/images/black.png" alt="visa" width={2000} height={72} />
+          <p className={utilStyles.AHH}>AH Care</p>
+          <Image
+        priority
+        src="/images/logo.png"
+        className={`${utilStyles.logoH}`}
+        width={40}
+        height={40}
+      />
+
         </nav>
       </header>
 
       <div className={utilStyles.pageContainer}>
-        <img src="/images/blue.png" alt="Blue Abstract Line Art" className={`${utilStyles.blue}`} />
+        <img src="/images/blue.png" alt="Blue Abstract Line Art" className={`${utilStyles.blue1}`} />
         <h2 className={utilStyles.OS}>Our Services</h2>
       </div>
 
@@ -85,10 +98,11 @@ const Index2 = () => {
       </div>
       <footer className={utilStyles.footer}>
         <div className={utilStyles.footerContent}>
-          <p>&copy; {new Date().getFullYear()} AH Care. All rights reserved. Designed and developed by AH Care Team</p>
-          <img className={utilStyles.visa} src="/images/visa.png" alt="visa" width={120} height={40} />
-          <img className={utilStyles.verified} src="/images/verified.png" alt="verified" width={80} height={60} />
-          <img className={utilStyles.fLogo} src="/images/logo.png" alt="logo" width={60} height={60} />
+          <p className={utilStyles.footerContent}>&copy; {new Date().getFullYear()} AH Care. All rights reserved. Designed and developed by AH Care Team</p>
+          <img className={utilStyles.visa} src="/images/visa.png" alt="visa" width={120} height={110} />   
+          <img className={utilStyles.verified} src="/images/verified.png" alt="verified" width={120} height={70} />
+          <img className={utilStyles.fLogo} src="/images/black.png" alt="logo" width={0} height={60} />
+
 
         </div>
       </footer>

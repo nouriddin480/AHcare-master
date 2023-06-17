@@ -44,12 +44,23 @@ export default function Home({ allPostsData }) {
         <title>{siteTitle}</title>
       </Head>
 
-      <header className={utilStyles.header}>
+      <header className={utilStyles.header2}>
         <nav>
           <Link href="/" className={utilStyles.logo}>
           </Link>
+          <img className={utilStyles.black} src="/images/black.png" alt="visa" width={2000} height={75} />
+          <p className={utilStyles.AHH}>AH Care</p>
+          <Image
+        priority
+        src="/images/logo.png"
+        className={`${utilStyles.logoH}`}
+        width={40}
+        height={40}
+      />
+
         </nav>
       </header>
+
 
       <Image
         priority
@@ -163,10 +174,10 @@ export default function Home({ allPostsData }) {
       </section>
       <footer className={utilStyles.footer}>
         <div className={utilStyles.footerContent}>
-          <p>&copy; {new Date().getFullYear()} AH Care. All rights reserved. Designed and developed by AH Care Team</p>
-          <img className={utilStyles.visa} src="/images/visa.png" alt="visa" width={120} height={40} />   
-          <img className={utilStyles.verified} src="/images/verified.png" alt="verified" width={80} height={60} />
-          <img className={utilStyles.fLogo} src="/images/logo.png" alt="logo" width={60} height={60} />
+          <p className={utilStyles.footerContent}>&copy; {new Date().getFullYear()} AH Care. All rights reserved. Designed and developed by AH Care Team</p>
+          <img className={utilStyles.visa} src="/images/visa.png" alt="visa" width={120} height={110} />   
+          <img className={utilStyles.verified} src="/images/verified.png" alt="verified" width={120} height={70} />
+          <img className={utilStyles.fLogo} src="/images/black.png" alt="logo" width={0} height={60} />
 
 
         </div>
