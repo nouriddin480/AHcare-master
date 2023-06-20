@@ -2,40 +2,77 @@
 
 .header {
   margin-top: -10px;
+  opacity: 0.2;
 }
 
 .header2 {
   margin-top: -32px;
 }
 
-.black {
-  margin-top: 10px;
+
+.blackF {
+  margin-bottom: -270px;
 }
 
-.AHH {
-  margin-top: -44px;
-  margin-left: 60px;
-  color: white;
+.DAPP {
+  color: black;
+  font-weight: bold;
+  margin-top: -20px !important;
+  margin-left: 200px !important;
 }
 
-.logoH {
-  margin-top: -52px;
-  margin-left: 15px;
+.DAPP2 {
+  color: black;
+  font-weight: 500;
+  max-width: 500px;
+  margin-top: 10px !important;
+  margin-left: 200px !important;
 }
+
+.DAPP3 {
+  color: black;
+  max-width: 500px;
+  margin-top: 10px !important;
+  margin-left: 200px !important;
+}
+
+.iphone {
+  position: absolute;
+  margin-left: 1000px;
+  margin-top: -176px;
+}
+
+.apple {
+  margin-left: 195px;
+  margin-top: 20px;
+}
+
+.google {
+  margin-left: 330px;
+  margin-top: -50px;
+}
+
+.huawei {
+  margin-left: 483px;
+  margin-top: -56px;
+}
+
 .footer {
-  background-image: url("/images/black.png");
   background-size: cover;
   background-position: center;
   position: relative;
   border-top-right-radius:50% 100%;
   border-top-left-radius:-20%;
   margin-right: -20px;
+  margin-top: 150px;
 
 }
 
 .footerContent {
-  color: white;
-  margin-top: 60px;
+  color: black;
+  margin-top: -110px;
+  margin-bottom: 40px;
+  text-align: center;
 }
 .visa{
   margin-top: -35px;
@@ -46,9 +83,11 @@
 .verified {
   margin-left: 130px;
   margin-top: -100px;
-  margin-bottom: -40px;
+  margin-bottom: -100px;
   
 }
+
+
 
 .blue {
     margin-top: -103px;
@@ -71,7 +110,7 @@
 
   .blue2 {
     margin-top: 200px;
-    margin-left: 1300px;
+    margin-left: 1500px;
     width: 450px;
     transform: rotate(420deg);
     transform-origin: top right;
@@ -80,14 +119,6 @@
 
   
 
-.logo{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 20px;
-  margin-bottom: 20px;
-
-}
 
 .Intro {
   display: flex;
@@ -229,73 +260,7 @@
   }
 
 
-  .buttonsContainer {
-    top: 0;
-    left: 0;
-    right: 0;
-    background-color: white;
-    padding: 10px;
-    display: flex;
-    justify-content: space-around;
-    z-index: 999;
-  }
-  
 
-  .scrollButton1 {
-    position: fixed;
-    top: 20px;
-    right: 325px;
-    padding: 10px 20px;
-    background-color: black;
-    color: #ffffff;
-    border: none;
-    border-radius: 4px;
-    font-size: 16px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-  }
-
-  .scrollButton2 {
-    position: fixed;
-    top: 20px;
-    right: 210px;
-    padding: 10px 20px;
-    background-color: black;
-    color: #ffffff;
-    border: none;
-    border-radius: 4px;
-    font-size: 16px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-  }
-  
-  .scrollButton3 {
-    position: fixed;
-    top: 20px;
-    right: 125px;
-    padding: 10px 20px;
-    background-color: black;
-    color: #ffffff;
-    border: none;
-    border-radius: 4px;
-    font-size: 16px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-  }
-
-  .scrollButton4 {
-    position: fixed;
-    top: 20px;
-    right: 20px;
-    padding: 10px 20px;
-    background-color: black;
-    color: #ffffff;
-    border: none;
-    border-radius: 4px;
-    font-size: 16px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-  }
   
   
 
@@ -480,6 +445,7 @@
     height: 450px;
     margin-left: 770px;
     margin-top: -490px;
+
   }
 
   .person1txt {
@@ -559,7 +525,7 @@
     margin-top: -210px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: -85px;
+    margin-bottom: -100px;
     justify-content: center;
     align-items: center;
     text-align: center;
