@@ -5,6 +5,9 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import { CssBaseline } from '@mui/material';
+import Header from '../pages/design-system/header';
+import { Box } from '@mui/system';
+
 
 const Index3 = () => {
   const [showScrollButton, setShowScrollButton] = useState(true);
@@ -31,20 +34,11 @@ const Index3 = () => {
   return (
     <ThemeProvider theme={{}}>
       <Layout>
-        <header className={utilStyles.header2}>
-          <nav>
-            <Link href="/" className={utilStyles.logo}></Link>
-            <img className={utilStyles.black} src="/images/black.png" alt="visa" width={2000} height={72} />
-            <p className={utilStyles.AHH}>AH Care</p>
-            <Image
-              priority
-              src="/images/logo.png"
-              className={`${utilStyles.logoH}`}
-              width={40}
-              height={40}
-            />
-          </nav>
-        </header>
+      <Header />
+        <nav>
+          <Link href="/" className="logo">
+          </Link>
+        </nav>
 
         <div className={utilStyles.pageContainer}>
           <img src="/images/blue.png" alt="Blue Abstract Line Art" className={`${utilStyles.blue1}`} />
@@ -131,24 +125,7 @@ const Index3 = () => {
           </div>
         </div>
 
-        <div className={utilStyles.buttonsContainer}>
-          {showScrollButton && (
-            <>
-              <Link href="/">
-                <button className={`${utilStyles.scrollButton1}`}>Home</button>
-              </Link>
-              <Link href="/index2">
-                <button className={`${utilStyles.scrollButton2}`}>Our Team</button>
-              </Link>
-              <Link href="/index3">
-                <button className={`${utilStyles.scrollButton3}`}>Blogs</button>
-              </Link>
-              <Link href="/index4">
-                <button className={`${utilStyles.scrollButton4}`}>Services</button>
-              </Link>
-            </>
-          )}
-        </div>
+
         <footer className={utilStyles.footer}>
           <div className={utilStyles.footerContent}>
             <p className={utilStyles.footerContent}>

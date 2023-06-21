@@ -1,12 +1,15 @@
 import React, { useState, useEffect } from 'react';
 import Layout from '../components/Layout';
-import utilStyles from '../styles/utils.module.css';
+import { ThemeProvider, createTheme } from '@mui/material/styles';
+import { CssBaseline, Grid, Typography } from '@mui/material';
 import Link from 'next/link';
 import Image from 'next/image';
+import Page4 from '../pages/design-system/page4';
+import Header from './design-system/header';
 
+const theme = createTheme();
 
-
-const Index2 = () => {
+const Index4 = () => {
   const [showScrollButton, setShowScrollButton] = useState(true);
 
   const scrollToSection = (sectionId) => {
@@ -29,85 +32,39 @@ const Index2 = () => {
   }, []);
 
   return (
-    <Layout>
-   <header className={utilStyles.header2}>
+    <ThemeProvider theme={theme}>
+      <CssBaseline />
+      <Layout>
+        <Header />
         <nav>
-          <Link href="/" className={utilStyles.logo}>
-          </Link>
-          <img className={utilStyles.black} src="/images/black.png" alt="visa" width={2000} height={72} />
-          <p className={utilStyles.AHH}>AH Care</p>
-          <Image
-        priority
-        src="/images/logo.png"
-        className={`${utilStyles.logoH}`}
-        width={40}
-        height={40}
-      />
-
+          <Link href="/" className="logo"></Link>
         </nav>
-      </header>
-
-      <div className={utilStyles.pageContainer}>
-        <img src="/images/blue.png" alt="Blue Abstract Line Art" className={`${utilStyles.blue1}`} />
-        <h2 className={utilStyles.OS}>Our Services</h2>
-      </div>
-
-      <div className={`${utilStyles.sContainer} ${utilStyles.containerWithLines}`}>
-  <div className={utilStyles.box}>
-    <img className={utilStyles.icon} src="/images/icon1.png" alt="logo" width={60} height={60} />
-    <h3>Healthcare Consultation</h3>
-    <p>Provide professional consultation services to individuals and organizations in the healthcare industry. Offer guidance on healthcare policies, regulations, best practices, and strategic planning.</p>
-  </div>
-
-  <img className={utilStyles.icon} src="/images/blackline.png" alt="logo" width={40} height={450} />
-
-
-  <div className={utilStyles.box}>
-    <img className={utilStyles.icon} src="/images/icon2.png" alt="logo" width={60} height={60} />
-    <h3>Elderly Care Services</h3>
-    <p>Offer comprehensive elderly care services, including in-home care, assisted living placement assistance, caregiver support, and senior wellness programs. Focus on promoting independence, safety, and quality of life for elderly individuals.</p>
-  </div>
-
-  <img className={utilStyles.icon} src="/images/blackline.png" alt="logo" width={40} height={450} />
-
-
-  <div className={utilStyles.box}>
-    <img className={utilStyles.icon} src="/images/icon3.png" alt="logo" width={60} height={60} />
-    <h3>Health IT Consulting</h3>
-    <p>Provide consulting services for healthcare organizations seeking to optimize their IT infrastructure, integrate electronic health record systems, enhance data security, and improve overall healthcare technology capabilities.</p>
-  </div>
-</div>
-
-      <div className={utilStyles.buttonsContainer}>
-        {showScrollButton && (
-          <>
-            <Link href="/">
-              <button className={`${utilStyles.scrollButton1}`}>Home</button>
-            </Link>
-            <Link href="/index2">
-              <button className={`${utilStyles.scrollButton2}`}>Our Team</button>
-            </Link>
-            <Link href="/index3">
-              <button className={`${utilStyles.scrollButton3}`}>Blogs</button>
-            </Link>
-            <Link href="/index3">
-              <button className={`${utilStyles.scrollButton4}`}>Services</button>
-            </Link>
-          </>
-        )}
-      </div>
-      <footer className={utilStyles.footer}>
-        <div className={utilStyles.footerContent}>
-          <p className={utilStyles.footerContent}>&copy; {new Date().getFullYear()} AH Care. All rights reserved. Designed and developed by AH Care Team</p>
-          <img className={utilStyles.visa} src="/images/visa.png" alt="visa" width={120} height={110} />   
-          <img className={utilStyles.verified} src="/images/verified.png" alt="verified" width={120} height={70} />
-          <img className={utilStyles.fLogo} src="/images/black.png" alt="logo" width={0} height={60} />
-
-
-        </div>
-      </footer>
-    </Layout>
+        <Page4 />
+        <footer>
+          <Grid container justifyContent="center" alignItems="center">
+            <Grid item xs={12} md={6}>
+              <Grid container justifyContent="center" alignItems="center" spacing={2}>
+                <Grid item xs={12}>
+                  <Typography variant="body1" align="center">
+                    &copy; {new Date().getFullYear()} AH Care. All rights reserved. Designed and developed by AH Care Team
+                  </Typography>
+                </Grid>
+                <Grid item xs={6}>
+                  <Image src="/images/visa.png" alt="visa" width={120} height={110} />
+                </Grid>
+                <Grid item xs={6}>
+                  <Image src="/images/verified.png" alt="verified" width={120} height={70} />
+                </Grid>
+                <Grid item xs={12}>
+                  <Image src="/images/black.png" alt="logo" width={0} height={60} />
+                </Grid>
+              </Grid>
+            </Grid>
+          </Grid>
+        </footer>
+      </Layout>
+    </ThemeProvider>
   );
 };
 
-export default Index2;
+export default Index4;

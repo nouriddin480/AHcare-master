@@ -6,7 +6,7 @@ import Image from 'next/image';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import { CssBaseline, Typography } from '@mui/material';
 import { Box } from '@mui/system';
-import CustomButton from '../pages/design-system/buttons';
+import CustomButton from '../pages/design-system/header';
 import Header from '../pages/design-system/header';
 
 const theme = createTheme();
@@ -39,18 +39,22 @@ const Index2 = () => {
       <Layout>
         <Header />
         <nav>
-          <Link href="/">
-            <a className="logo"></a>
+          <Link href="/" className="logo">
+
           </Link>
-          <img className="black" src="/images/black.png" alt="visa" width={2000} height={72} />
-          <p className="AHH">AH Care</p>
           <Image
             priority
-            src="/images/logo.png"
             className="logoH"
             width={40}
             height={40}
           />
+
+                  <div className={utilStyles.buttonsContainer}>
+        {showScrollButton && (
+        <Box className={utilStyles.buttonsContainer}>
+        </Box>
+      )}
+    </div>
         </nav>
 
         <div className={utilStyles.pageContainer}>
@@ -95,16 +99,7 @@ const Index2 = () => {
           </div>
         </div>
 
-        <div className={utilStyles.buttonsContainer}>
-        {showScrollButton && (
-        <Box className={utilStyles.buttonsContainer}>
-          <CustomButton className="scrollButton1" href="/">Home</CustomButton>
-          <CustomButton className="scrollButton2" href="/index2">Our Team</CustomButton>
-          <CustomButton className="scrollButton3" href="/index3">Blogs</CustomButton>
-          <CustomButton className="scrollButton4" href="/index4">Services</CustomButton>
-        </Box>
-      )}
-    </div>
+
 
         <img className={utilStyles.blackF} src="/images/paleblue.jpg" alt="visa" width={2000} height={290} />
         <Typography variant="body1" className={utilStyles.DAPP} style={{ fontSize: '40px' }}>

@@ -9,6 +9,9 @@ import { ThemeProvider, createTheme } from '@mui/material/styles';
 import { CssBaseline } from '@mui/material';
 import { Box } from '@mui/system';
 import { Typography } from '@mui/material';
+import Header from '../pages/design-system/header';
+
+
 
 // Define your theme
 const theme = createTheme();
@@ -48,36 +51,17 @@ export default function Home({ allPostsData }) {
     <ThemeProvider theme={theme}>
       <CssBaseline />
       <Layout home>
-        <Head>
-          <title>{siteTitle}</title>
-        </Head>
+      <Header/>
+        <nav>
+          <Link href="/" className="logo">
+          </Link>
+          <Image src="/images/black.png" className={utilStyles.black} alt="Picture 1" width={4000} height={23} />
 
-        <header className={utilStyles.header2}>
-          <nav>
-            <Link href="/" className={utilStyles.logo}>
-            </Link>
-            <img className={utilStyles.black} src="/images/black.png" alt="visa" width={2000} height={75} />
-            <p className={utilStyles.AHH}>AH Care</p>
-            <Image
-              priority
-              src="/images/logo.png"
-              className={`${utilStyles.logoH}`}
-              width={40}
-              height={40}
-            />
-
-          </nav>
-        </header>
+        </nav>
 
 
-        <Image
-          priority
-          src="/images/logo.png"
-          className={`${utilStyles.logo}`}
-          width={100}
-          height={100}
-        />
         <img src="/images/blue.png" alt="Blue Abstract Line Art" className={`${utilStyles.blue}`} />
+        <img src="/images/logo.png" className={utilStyles.logo}></img>
         <h2 className={utilStyles.Intro}>Introducing</h2>
         <h2 className={utilStyles.AH}>AH Care</h2>
 
@@ -147,36 +131,7 @@ export default function Home({ allPostsData }) {
           </div>
 
 
-          <div className={utilStyles.buttonContainer}>
-            {showScrollButton && (
-              <>
-                <Link href="/">
-                  <button className={`${utilStyles.scrollButton1}`}>
-                    Home
-                  </button>
-                </Link>
-                <Link href="/index2">
-                  <button className={`${utilStyles.scrollButton2}`}>
-                    Our Team
-                  </button>
-                </Link>
 
-
-                <Link href="/index3">
-                  <button className={`${utilStyles.scrollButton3}`}>
-                    Blogs
-                  </button>
-                </Link>
-
-                <Link href="/index2">
-                  <button className={`${utilStyles.scrollButton4}`}>
-                    Services
-                  </button>
-                </Link>
-
-              </>
-            )}
-          </div>
         </section>
 
         <img className={utilStyles.blackF} src="/images/paleblue.jpg" alt="visa" width={2000} height={290} />
