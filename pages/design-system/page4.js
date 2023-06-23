@@ -55,7 +55,7 @@ const Page4 = () => {
                   borderRadius: '5px',
                 }}
               >
-                <Image src="/images/icon1.png" alt="logo" width={60} height={60} style={{ marginLeft: 'auto', marginRight: 'auto' }} />
+                <Image src="/images/icon1.png" alt="logo" width={60} height={60} style={{ marginLeft: 'auto', marginRight: 'auto', marginTop: '-20px', marginBottom: '20px' }} />
                 <Typography variant="h3" style={{ fontSize: '1.5rem', marginBottom: '0.5rem', color: 'black', textAlign: 'center' }}>
                   Healthcare Consultation
                 </Typography>
@@ -78,7 +78,7 @@ const Page4 = () => {
                   borderRadius: '5px',
                 }}
               >
-                <Image src="/images/icon2.png" alt="logo" width={60} height={60} style={{ marginLeft: 'auto', marginRight: 'auto' }} />
+                <Image src="/images/icon2.png" alt="logo" width={60} height={60} style={{ marginLeft: 'auto', marginRight: 'auto', marginTop: '-20px',  marginBottom: '20px'  }} />
                 <Typography variant="h3" style={{ fontSize: '1.5rem', marginBottom: '0.5rem', color: 'black', textAlign: 'center' }}>
                   Elderly Care Services
                 </Typography>
@@ -101,7 +101,7 @@ const Page4 = () => {
                   borderRadius: '5px',
                 }}
               >
-                <Image src="/images/icon3.png" alt="logo" width={60} height={60} style={{ marginLeft: 'auto', marginRight: 'auto' }} />
+                <Image src="/images/icon3.png" alt="logo" width={60} height={60} style={{ marginLeft: 'auto', marginRight: 'auto', marginTop: '-13px',  marginBottom: '20px'  }} />
                 <Typography variant="h3" style={{ fontSize: '1.5rem', marginBottom: '0.5rem', color: 'black', textAlign: 'center' }}>
                   Health IT Consulting
                 </Typography>

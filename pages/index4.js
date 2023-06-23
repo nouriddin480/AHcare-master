@@ -4,8 +4,8 @@ import { ThemeProvider, createTheme } from '@mui/material/styles';
 import { CssBaseline, Grid, Typography } from '@mui/material';
 import Link from 'next/link';
 import Image from 'next/image';
-import Page4 from '../pages/design-system/page4';
 import Header from './design-system/header';
+import Page4 from '../pages/design-system/page4';
 
 const theme = createTheme();
 
