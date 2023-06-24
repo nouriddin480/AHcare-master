@@ -14,9 +14,8 @@ const Page4 = () => {
   }, []);
 
   return (
-    <Box display="flex" justifyContent="center" alignItems="center" minHeight="100vh">
-      <Grid container spacing={4}>
-        {/* Our Services */}
+    <Box display="flex" justifyContent="center" alignItems="center" minHeight="50vh">
+      <Grid container spacing={2}>
         <Grid item xs={12}>
           <Box
             style={{
@@ -32,7 +31,6 @@ const Page4 = () => {
               backgroundSize: 'cover',
               backgroundPosition: 'center',
               padding: '20px',
-              width: '100%',
               marginBottom: '-10px',
             }}
           >

@@ -5,6 +5,7 @@ import { CssBaseline, Grid, Typography } from '@mui/material';
 import Link from 'next/link';
 import Image from 'next/image';
 import Header from './design-system/header';
+import Footer from './design-system/footer';
 import Page2 from '../pages/design-system/page2';
 
 const theme = createTheme();
@@ -41,29 +42,10 @@ const Index2 = () => {
         </nav>
                 
         <Page2 />
+        <Footer />
+
         
-        <footer>
-          <Grid container justifyContent="center" alignItems="center">
-            <Grid item xs={12} md={6}>
-              <Grid container justifyContent="center" alignItems="center" spacing={2}>
-                <Grid item xs={12}>
-                  <Typography variant="body1" align="center">
-                    &copy; {new Date().getFullYear()} AH Care. All rights reserved. Designed and developed by AH Care Team
-                  </Typography>
-                </Grid>
-                <Grid item xs={6}>
-                  <Image src="/images/visa.png" alt="visa" width={120} height={110} />
-                </Grid>
-                <Grid item xs={6}>
-                  <Image src="/images/verified.png" alt="verified" width={120} height={70} />
-                </Grid>
-                <Grid item xs={12}>
-                  <Image src="/images/black.png" alt="logo" width={0} height={60} />
-                </Grid>
-              </Grid>
-            </Grid>
-          </Grid>
-        </footer>
+
       </Layout>
     </ThemeProvider>
   );

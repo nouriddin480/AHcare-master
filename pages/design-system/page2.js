@@ -16,7 +16,6 @@ const Page2 = () => {
   return (
     <Box display="flex" justifyContent="center" alignItems="center" minHeight="100vh">
       <Grid container spacing={2}>
-        {/* Team Introduction */}
         <Grid item xs={12}>
           <Box
             style={{
@@ -39,7 +38,6 @@ const Page2 = () => {
           </Box>
         </Grid>
 
-        {/* Team Members */}
         <Grid item xs={12} sm={6}>
           <Box
             style={{
